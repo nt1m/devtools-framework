@@ -1,0 +1,25 @@
+.input,
+select {
+  background: var(--controls-background);
+  border: 1px solid var(--splitter-color);
+  color: inherit;
+  font: inherit;
+  border-radius: 2px;
+}
+
+.input.search,
+.input.filter {
+  border-radius: 20px;
+  padding-inline-start: 20px;
+  background-size: 14px;
+  background-repeat: no-repeat;
+  background-position: 4px center;
+}
+
+.input.search {
+  background-image: url(http://firefoxux.github.io/firefox-svg-icons/icons/developer/search.svg);
+}
+
+.input.filter {
+  background-image: url(http://firefoxux.github.io/firefox-svg-icons/icons/developer/filter.svg#filterinput);
+}

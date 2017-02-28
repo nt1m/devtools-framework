@@ -1,0 +1,90 @@
+<!doctype html>
+<html>
+
+<head>
+
+  <link href="../dist/devtools-framework.css" rel="stylesheet">
+
+</head>
+
+<body class="theme-body">
+  <button class="button standalone" onclick="document.documentElement.classList.toggle('theme-dark')">Go dark</button>
+  <h1>Variables</h1>
+  <p>See: XXX</p>
+
+  <h1>Form controls</h1>
+  <select>
+    <option>Hello</option>
+  </select>
+  <input type="text" class="input"/>
+
+  <textarea class="input"></textarea>
+
+  <input type="text" class="input search"/>
+
+  <input type="text" class="input filter"/>
+
+  <h1>Buttons</h1>
+  <button class="button standalone">I'm lonely, I stand alone</button>
+
+  <h1>Toolbars</h1>
+  <p>Here's a toolbar:</p>
+  <div class="toolbar">
+    <button class="button">Hola</button>
+
+    <button class="icon-button">
+      <i class="icon" style="background-image: url(http://firefoxux.github.io/firefox-svg-icons/icons/developer/pseudo-class.svg)"></i>
+    </button>
+  </div>
+
+  <p>And now tabs:</p>
+  <ul class="tabs toolbar">
+    <li class="selected">
+      <a href="#">Rules</a>
+    </li>
+    <li>
+      <a href="#">Computed</a>
+    </li>
+    <li>
+      <a href="#">Layout</a>
+    </li>
+    
+  </ul>
+
+  <h1>Icons</h1>
+
+  <p>These icons are very easy to manipulate, you can set the color with the color property, the size with the font-size property,
+    and finally the icon itself using the `background-image` property. Nice and simple.
+  </p>
+
+  <i class="icon" style="background-image: url(http://firefoxux.github.io/firefox-svg-icons/icons/developer/pseudo-class.svg)"></i>
+
+  <h1>Everything put together</h1>
+  <div class="body" style="height: 200px;">
+
+    <div class="main-content">
+      <div class="toolbar">
+        <button class="icon-button">
+          <i class="icon" style="background-image: url(http://firefoxux.github.io/firefox-svg-icons/icons/developer/add.svg)"></i>
+        </button>
+      </div>
+
+    </div>
+    <div class="splitter"></div>
+    <div class="sidebar">
+      <ul class="tabs toolbar">
+        <li class="selected">
+          <a href="#">Rules</a>
+        </li>
+        <li>
+          <a href="#">Computed</a>
+        </li>
+        <li>
+          <a href="#">Layout</a>
+        </li>
+      </ul>
+    </div>
+
+  </div>
+</body>
+</html>

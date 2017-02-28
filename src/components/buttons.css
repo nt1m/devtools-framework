@@ -1,0 +1,42 @@
+
+
+.button,
+.icon-button {
+  border: none;
+  background: none;
+  color: inherit;
+  font: inherit;
+  border-radius: 2px;
+  padding: 0 5px;
+  margin: 0 2px;
+}
+
+.button {
+  background: var(--toolbarbutton-background);
+}
+
+.icon-button:hover {
+  background: var(--toolbarbutton-background);
+}
+
+.button:hover,
+.icon-button:hover:active,
+.icon-button.checked {
+  background: var(--toolbarbutton-hover-background);
+  border-color: var(--toolbarbutton-hover-border-color);
+}
+
+.button:hover:active {
+  background-color: var(--selection-background-semitransparent);
+}
+
+.button.checked {
+  background: var(--toolbarbutton-checked-background);
+  border-color: var(--toolbarbutton-checked-border-color);
+  color: var(--toolbarbutton-checked-color);
+}
+
+.standalone.button {
+  padding: 0.5em;
+  border: 1px solid var(--splitter-color);
+}

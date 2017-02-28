@@ -1,0 +1,34 @@
+:root {
+  --body-color: #393f4c;
+  --toolbar-background: #fcfcfc;
+  --body-background: #fff;
+  --splitter-color: #dde1e4;
+
+  --selection-background: #4c9ed9;
+  --selection-background-semitransparent: rgba(76, 158, 217, 0.15);
+  --selection-color: #f5f7fa;
+}
+
+:root.theme-dark {
+  --body-color: #8fa1b2;
+  --toolbar-background: #272b35;
+  --body-background: #393f4c;
+  --splitter-color: #454d5d;
+  --selection-background: #5675B9;
+  --selection-background-semitransparent: rgba(86, 117, 185, 0.5);
+}
+
+:root {
+  --toolbarbutton-background: rgba(110,120,130,0.1);
+  --toolbarbutton-border-color: transparent;
+  --toolbarbutton-hover-background: rgba(110,120,130,0.2);
+  --toolbarbutton-hover-border-color: var(--toolbarbutton-border-color);
+  --toolbarbutton-checked-background: var(--selection-background);
+  --toolbarbutton-checked-color: var(--selection-color);
+  --toolbarbutton-checked-border-color: var(--toolbarbutton-border-color);
+}
+
+.theme-body {
+  background: var(--body-background);
+  color: var(--body-color);
+}

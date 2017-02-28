@@ -1,0 +1,11 @@
+.icon {
+  width: 1em;
+  height: 1em;
+  font-size: 16px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: inline-block;
+  fill: currentColor;
+  vertical-align: middle;
+  filter: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg"><filter id="a"><feComposite in="FillPaint" in2="SourceGraphic" operator="in"/></filter></svg>#a');
+}

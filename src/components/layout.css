@@ -1,0 +1,43 @@
+html,
+body {
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  font: menu;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.body {
+  background: var(--body-background);
+  color: var(--body-color);
+  height: 100%;
+  display: flex;
+}
+.main-content {
+  flex: 1;
+}
+
+.splitter {
+  border-left: 1px solid var(--splitter-color);
+}
+
+.sidebar {
+  background: var(--body-background);
+}
+
+.toolbar {
+  display: flex;
+  align-items: stretch;
+  background: var(--toolbar-background);
+  border-bottom: 1px solid var(--splitter-color);
+  height: 26px;
+  padding: 2px;
+}
+
+.header {
+  background: var(--header-background);
+}
