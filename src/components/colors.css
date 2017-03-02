@@ -2,6 +2,7 @@
   --body-color: #393f4c;
   --toolbar-background: #fcfcfc;
   --body-background: #fff;
+  --controls-background: #fff;
   --splitter-color: #dde1e4;
 
   --selection-background: #4c9ed9;
@@ -14,6 +15,7 @@
   --toolbar-background: #272b35;
   --body-background: #393f4c;
   --splitter-color: #454d5d;
+  --controls-background: #181D20;
   --selection-background: #5675B9;
   --selection-background-semitransparent: rgba(86, 117, 185, 0.5);
 }

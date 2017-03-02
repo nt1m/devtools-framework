@@ -10,10 +10,15 @@ select {
 .input.search,
 .input.filter {
   border-radius: 20px;
-  padding-inline-start: 20px;
+  padding-inline-start: 24px;
   background-size: 14px;
   background-repeat: no-repeat;
-  background-position: 4px center;
+  background-position: 6px center;
+}
+
+.input:focus {
+  box-shadow: 0 0 0 2px var(--selection-background-semitransparent);
+  border-color: var(--selection-background);
 }
 
 .input.search {

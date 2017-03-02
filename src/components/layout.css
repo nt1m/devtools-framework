@@ -17,6 +17,19 @@ body {
   height: 100%;
   display: flex;
 }
+
+.float-inline-start {
+  float: inline-start;
+  margin-inline-start: auto;
+}
+.float-inline-end {
+  float: inline-end;
+  margin-inline-start: auto;
+}
+
+.flex {
+  flex: 1;
+}
 .main-content {
   flex: 1;
 }
